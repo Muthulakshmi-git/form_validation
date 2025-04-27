@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <!--Link with CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+        <form >
+
+            <h1>Password verification</h1><br>
+            <div class="names">
+                <input type="text" placeholder="User name" id="nameinput"><br>
+                <span id="nameerror">Enter a valid Name</span><br>
+            </div>
+          
+            <div class="password">
+                <input type="password" placeholder="Your password" id="passwordinput"><br>
+                <span id="passworderror">Enter a strong Password</span><br>
+            </div>
+           
+
+            <div class="repassword">
+                <input type="password" placeholder="Confirm password" id="repasswordinput"><br>
+            <span id="repassworderror">Password doesn't match</span><br>
+            </div>
+
+            <div class="button">
+                <input type="submit" id="btn">
+            </div>
+           
+           
+                <h2 id="verified">Form submitted successffuly</h2>
+            
+
+        </form>
+    </center>
+        <!--Link with script Js-->
+        <script src="./script.js"></script>
+    </div>
+</body>
+
+</html
